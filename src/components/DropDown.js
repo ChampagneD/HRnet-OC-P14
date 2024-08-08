@@ -43,7 +43,6 @@ const DropDownField = ({
               <span>{state.dropdown ? "–" : "+"}</span>
             )}
             onChange={(val) => {
-              console.log(val);
               field.onChange(val[0][labelKey]);
             }}
             labelField={labelKey}
