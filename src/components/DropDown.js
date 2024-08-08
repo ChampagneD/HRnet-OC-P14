@@ -26,7 +26,6 @@ const DropDownField = ({
   labelKey,
   ...restProps
 }) => {
-  console.log(data);
   return (
     <div className="dropdown">
       <label htmlFor={name}>{label}</label>
